@@ -7,6 +7,7 @@ public class changeScene : MonoBehaviour {
 
 	public string levelToLoad;
 
+    // Activate
 	void OnMouseDown()
 	{
 		SceneManager.LoadScene (levelToLoad);
